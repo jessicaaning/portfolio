@@ -1,0 +1,48 @@
+nav {
+    /* background-color:#016fdd; */
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+.nav-items {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bio {
+    width: 60%;
+    
+}
+
+.hero {
+    background-image: url(../images/asset\ 0.jpeg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-content {
+    width: 80%;
+    margin: auto;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-bold{ 
+    font-weight: bold;
+    
+}
